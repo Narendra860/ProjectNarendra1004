@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width ,  initial-scale=1.0">
+ <title>University website</title>
+ <link rel="stylesheet" href="WebsiteStyling.css">
+ <link rel="stylesheet" 
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://fontawesome.com/v4/icons/">
+
+</head>
+
+<body>
+    <section class="header">  
+       <nav>
+         <a href="index.html"> <img src="images/eduford_img/logo.png"> </a>
+                <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i></a> 
+                        <ul>
+                        <li><a href="Practise.html">HOME</a></li>
+                        <li><a href="Practise.html">ABOUT</a></li>
+                        <li><a href="Practise.html">COURSE</a></li>
+                        <li><a href="Practise.html">BLOG</a></li>
+                        <li><a href="Practise.html">CONTACT</a></li>
+                    </ul>
+                </div>
+
+                 <i class="fa fa-bars" onclick="showMenu"></i>
+
+        </nav>
+            <div class="text">
+                <h1>World's Best University</h1>
+                <p>Eduford is one of the world-class univeristy which focuses more on workshops rather than in-class teaching
+                    <br> Best Infrastructure and diversity.
+                </p>
+                <a class="visitB" href="#">Visit us to know more</a>
+            </div>
+        </section>
+        <section class="Course">
+            <h1>Courses we offer</h1>
+            <p>We offer STEM courses with flexible curiculum as per the today's trending technologies</p>
+
+            <div class="row">
+                <div class="Course-col">
+                    <h3>Intermediate</h3>
+                    <p>MPC, BIPC, CEC, HEC</p>
+                </div>
+                <div class="Course-col">
+                    <h3>Degree</h3>
+                    <p>Bachelor of Technology related to engieering field with different courses like EEE, CSE,
+                        <br>Mechanical, CIVIL, IT, ASE
+                    </p>
+                </div>
+                <div class="Course-col">
+                    <h3>Post-Graduation</h3>
+                    <p>Specilaization in respective particular courses with more focus in Research</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Campus">
+
+            <h3>Our Global Campuses</h3>
+            <p>World-class Campus with best Infrastructure</p>
+            <div class = "row">
+                <div class="Campus-col">
+                    <img src="images/eduford_img/london.png"  >
+                    <div class="imagetext">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+
+                <div class="Campus-col">
+                    <img src="images/eduford_img/newyork.png"  >
+                    <div class="imagetext">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+
+                <div class="Campus-col">
+                    <img src="images/eduford_img/washington.png"  >
+                    <div class="imagetext">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+                          
+            </div>
+            
+        </section>
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Hostel for both boys and girls, Sports, Gymnastic center, Yoga and free internet access</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/eduford_img/library.png">
+                    <h3>World Class Library </h3>
+                    <p>Large volume of books available both digital and physical, opened for 24 hours all days.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/eduford_img/basketball.png">
+                    <h3>Largest play ground</h3>
+                    <p>All basketball, badminton, and a big playgroud available for both boys and girls all days
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/eduford_img/cafeteria.png">
+                    <h3>BigCafeteria </h3>
+                    <p>Tasty and Healthy food maintained full hygiene .</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Testimonials">
+            <h1>What our student says?</h1>
+            <p>Views and opinions, Feedback</p>
+            
+            <div class="row">
+             <div class="testimonial-col">
+                <img src="images/eduford_img/user1.jpg">
+                <div>
+                    <p> Everything is at top notch level starting from good student,faculty ratio and 
+                        world class Infrastructure and facilities,<br>
+                        moreover the sports clubs and events, Quizes.
+                    </p>
+                    <h3>VenkatReddyGF</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+             </div>
+
+             <div class="testimonial-col">
+                <img src="images/eduford_img/user2.jpg">
+                <div>
+                    <p> Everything is at top notch level starting from good student,faculty ratio and 
+                        world class Infrastructure and facilities,<br>
+                        moreover the sports clubs and events, Quizes.
+                    </p>
+                    <h3>BelaBhaskar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+             </div>
+            </div>
+        </section>
+</body>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+
+    }
+
+</script>
+</html>
